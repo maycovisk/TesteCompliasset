@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/*---- IMPORTAR FONTE Exo2----*/
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@300;400;500&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,900;1,200;1,600&family=Ubuntu:wght@400;500&display=swap');
+
+
+:root{
+    --cor0:#007aff;
+    --cor1:#fff;
+    --cor2:#111;
+    --cor3:#222;
+    --cor4:#103a68;
+    --cor5:#333;
+    --cor6:#FF1A1A;
+
+    --fonte-padrao: sans-serif;
+    --fonte-destaque: 'Exo 2', sans-serif;
+}
+
+/*--- GERAL ---*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    font-family: var(--fonte-destaque);
+}
+
+input, label {
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus { /*tirar a borda dos inputs*/
+    outline: none;
+}
+
+a {
+    color: var(--cor0);
+}
+
+body {
+    padding-top: 5vh;  /*view height - espaçamento de 5% na tela*/
+    background-image: url(../img/fundo.png);
+    background-size: cover;
+    background-position-y: -150px;
+}
+
+/*--- FORM ---*/
+#main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--cor1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#main-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;  /* para adaptar ao elemento root */
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full-box {
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.half-box {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing {
+    margin-right: 2.5%;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input {
+    border-bottom: 2px solid var(--cor3);
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+
+input:focus {
+    border-color: var(--cor4);
+}
+
+input[type="submit"] {
+    background-color: var(--cor4);
+    color: var(--cor1);
+    border: none;
+    border-radius: 20px;
+    height: 40p;
+    cursor: pointer;
+}
+
+#agreement {
+    margin-right: 5px;
+}
+
+#agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+}
+
+/*--- VALIDAÇÕES ---*/
+.error-validation {
+    color: var(--cor6);
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template {
+    display: none;
+}

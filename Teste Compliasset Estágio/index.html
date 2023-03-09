@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Compliasset</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--Fonte-->
+    
+</head>
+<body>
+    <div id="main-container">
+        <h1>Cadastra-se</h1>
+        <form action="https://formspree.io/f/xwkjqpqz" method="POST" id="register-form">
+            <div class="full-box">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail..." data-min-length="5" data-required data-email-validate>
+            </div>
+            <div class="half-box spacing">
+                <label for="name">Nome</label>
+                <input type="text" name="nome" id="name" placeholder="Digite seu o seu nome..." data-max-length="15" data-only-letters data-required>
+            </div>
+            <div class="half-box">
+                <label for="name">Sobrenome</label>
+                <input type="text" name="lastnome" id="lastname" placeholder="Digite seu o seu sobrenome..." data-max-length="25" data-only-letters data-required>
+            </div>
+            <div class="half-box spacing">
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite a sua senha..." data-password-validate data-min-length="8" data-required>
+            </div>
+            <div class="half-box">
+                <label for="passconfirmation">Confirmação de senha</label>
+                <input type="password" name="passconfirmation" id="passwordconfirmation" placeholder="Digite novamente sua senha" data-equal="password" data-required>
+            </div>
+            <div class="full-box">
+                <input type="checkbox" name="agreement" id="agreement" data-checked>
+                <label for="agreement" id="agreement">Eu li e aceito os <a href="#">termos de uso</a></label>
+            </div>
+            <div class="full-box">
+                <input type="submit" id="btn-submit" value="Registrar">
+            </div>
+        </form>
+    </div>
+    <p class="error-validation template"></p>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

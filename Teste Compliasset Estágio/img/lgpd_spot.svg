@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="561" viewBox="0 0 560 561">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-880 -100) translate(880 100) matrix(1 0 0 -1 279 561)">
+                    <path stroke="#F6D964" stroke-width="2.835" d="M70 142h0c38.66 0 70-31.34 70-70S108.66 2 70 2 0 33.34 0 72s31.34 70 70 70z"/>
+                    <path fill="#B6C7C4" d="M141 282.001L1 282.001 141 142.001z" transform="matrix(-1 0 0 1 142 0)"/>
+                    <path fill="#005272" d="M141 282.001L281 282.001 281 142.001 141 142.001z" transform="matrix(-1 0 0 1 422 0)"/>
+                    <path fill="#E49D99" d="M141.5 561C64.456 561 2 498.32 2 421s62.456-140 139.5-140S281 343.68 281 421s-62.456 140-139.5 140z" transform="matrix(-1 0 0 1 283 0)"/>
+                    <path fill="#45A59D" d="M281 2c0 77.32-62.68 140-140 140V0h139.986c.01.665.014 1.332.014 2z" transform="matrix(-1 0 0 1 422 0)"/>
+                    <ellipse cx="140.5" cy="420.001" fill="#EA7870" rx="140.5" ry="141" transform="matrix(-1 0 0 1 281 0)"/>
+                </g>
+                <path fill="#F6D964" d="M0 2.001L140 142.001 140 2.001z" transform="translate(-880 -100) translate(880 100)"/>
+                <path fill="#005272" d="M0 142.001L140 142.001 0 282.001z" transform="translate(-880 -100) translate(880 100)"/>
+                <path fill="#E49D99" d="M140 282.001L280 282.001 280 142.001 140 142.001z" transform="translate(-880 -100) translate(880 100) matrix(-1 0 0 1 420 0)"/>
+                <g>
+                    <path fill="#45A59D" d="M140 70c0-38.66-31.34-70-70-70S0 31.34 0 70c0 .868.021 1.732.053 2.593H0v140h.053C1.417 250.05 32.208 280 70 280s68.583-29.95 69.947-67.407H140v-140h-.053c.032-.861.053-1.725.053-2.593" transform="translate(-880 -100) translate(880 100) matrix(1 0 0 -1 0 561)"/>
+                    <path fill="#D8EAE6" d="M70 141c-38.66 0-70-31.34-70-70S31.34 1 70 1s70 31.34 70 70-31.34 70-70 70" transform="translate(-880 -100) translate(880 100) matrix(1 0 0 -1 0 561)"/>
+                </g>
+                <path fill="#F6D964" d="M280 561.001L140 561.001 140 421.001z" transform="translate(-880 -100) translate(880 100) matrix(-1 0 0 1 420 0)"/>
+                <path fill="#34A2CE" d="M140 2.001L140 142.001 280 2.001z" transform="translate(-880 -100) translate(880 100) matrix(-1 0 0 1 420 0)"/>
+                <path stroke="#34A2CE" stroke-width="2.835" d="M140 282.001L280 282.001 280 422.001z" transform="translate(-880 -100) translate(880 100) matrix(-1 0 0 1 420 0)"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -158,7 +158,7 @@ class Validator {
 
         if(!inputCheck)
         {
-            let errorMessage = window.alert(`Você deve concordar com os termos`)
+            let errorMessage = window.alert(`Você deve concordar com os termos de uso para continuar`)
 
             this.printMessage(input, errorMessage);
         }
